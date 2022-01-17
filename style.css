@@ -30,7 +30,7 @@ body {
   min-height: 80vh;
   background-image: url("./images/desktop/image-header.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: 50% 50%;
 }
 
 .navbar {
@@ -67,4 +67,19 @@ body {
   font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
   color: var(--very-dark-desaturated-blue);
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text h1 {
+  color: var(--white);
+  font-family: "Fraunces", sans-serif;
+  letter-spacing: 0.4rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
 }
