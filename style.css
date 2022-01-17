@@ -26,6 +26,24 @@ body {
   font-size: 18px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
 .header {
   min-height: 80vh;
   background-image: url("./images/desktop/image-header.jpg");
@@ -61,12 +79,16 @@ body {
 
 .list-item button {
   background-color: var(--white);
+  color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", sans-serif;
   padding: 1rem 2rem;
   border: none;
   border-radius: 2rem;
-  font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
-  color: var(--very-dark-desaturated-blue);
+}
+
+.list-item button:hover {
+  cursor: pointer;
 }
 
 .header-text {
@@ -81,5 +103,39 @@ body {
   font-family: "Fraunces", sans-serif;
   letter-spacing: 0.4rem;
   font-weight: 900;
+  margin-top: 2rem;
   margin-bottom: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.grid-text {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.grid-text h2 {
+  font-family: "Fraunces", sans-serif;
+  color: var(--very-dark-desaturated-blue);
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.grid-text p {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 2rem;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid a {
+  text-decoration: none;
+  font-family: "Fraunces", sans-serif;
+  color: var(--very-dark-desaturated-blue);
 }
