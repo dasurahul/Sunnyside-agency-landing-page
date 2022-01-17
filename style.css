@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  min-height: 80vh;
+  background-image: url("./images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.25rem;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.9rem;
+}
+
+.list-item button {
+  background-color: var(--white);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-family: "Fraunces", sans-serif;
+  text-transform: uppercase;
+  color: var(--very-dark-desaturated-blue);
+}
