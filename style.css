@@ -281,3 +281,15 @@ h5 {
   color: var(--grayish-blue);
   font-size: 0.8rem;
 }
+
+.images {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+}
