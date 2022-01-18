@@ -11,6 +11,7 @@
   --dark-moderate-cyan: hsl(168, 34%, 41%);
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --light-cyan: hsl(167, 40%, 64%);
+  --light-blue: hsl(202, 99%, 80%);
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
@@ -108,6 +109,8 @@ img {
 }
 
 .list-item button:hover {
+  background-color: var(--light-blue);
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -325,4 +328,8 @@ img {
 
 .footer-social-nav {
   gap: 1.25rem;
+}
+
+.footer-social-nav .list-item a img:hover {
+  filter: brightness(0) invert(1);
 }
