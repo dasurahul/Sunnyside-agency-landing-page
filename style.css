@@ -50,6 +50,14 @@ h3 {
   font-size: 1.75rem;
 }
 
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
 .header {
   min-height: 90vh;
   background-image: url("./images/desktop/image-header.jpg");
@@ -222,4 +230,54 @@ h3 {
 
 .photography-text {
   color: var(--dark-blue);
+}
+
+.testimonials {
+  padding-block: 8rem;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.title {
+  color: var(--grayish-blue);
+  text-align: center;
+  font-family: "Fraunces", sans-serif;
+  letter-spacing: 0.3rem;
+  margin-bottom: 5rem;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.three-columns > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.client-image {
+  width: 4rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.three-columns > div p {
+  color: var(--dark-grayish-blue);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.client-name {
+  color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 0.75rem;
+}
+
+.client-post {
+  color: var(--grayish-blue);
+  font-size: 0.8rem;
 }
