@@ -11,7 +11,7 @@
   --dark-moderate-cyan: hsl(168, 34%, 41%);
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --light-cyan: hsl(167, 40%, 64%);
-  --light-blue: hsl(202, 99%, 80%);
+  --button-background: hsl(202, 99%, 80%);
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
@@ -101,15 +101,15 @@ img {
   background-color: var(--white);
   color: var(--very-dark-desaturated-blue);
   font-family: "Fraunces", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
   padding: 1rem 2rem;
   border: none;
   border-radius: 2rem;
-  text-transform: uppercase;
-  font-size: 0.9rem;
 }
 
 .list-item button:hover {
-  background-color: var(--light-blue);
+  background-color: var(--button-background);
   color: var(--white);
   cursor: pointer;
 }
