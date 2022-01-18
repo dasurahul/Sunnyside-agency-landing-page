@@ -319,6 +319,10 @@ img {
   color: var(--dark-moderate-cyan);
 }
 
+.footer-nav .list-item a:hover {
+  color: var(--white);
+}
+
 .footer-social-nav {
   gap: 1.25rem;
 }
