@@ -114,6 +114,13 @@ img {
   cursor: pointer;
 }
 
+.hamburger-button {
+  display: none;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
 .header-text {
   display: flex;
   flex-direction: column;
@@ -332,4 +339,23 @@ img {
 
 .footer-social-nav .list-item a img:hover {
   filter: brightness(0) invert(1);
+}
+
+/* Mobile */
+
+@media (max-width: 30rem) {
+  .header {
+    min-height: 60vh;
+    background-image: url("./images/mobile/image-header.jpg");
+  }
+  .header-nav {
+    display: none;
+  }
+  .hamburger-button {
+    display: block;
+  }
+  .header-text h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
 }
