@@ -139,9 +139,31 @@ img {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "transform transform-image"
+    "standout-image standout";
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
+}
+
+.grid img {
+  height: 100%;
+}
+
+.transform {
+  grid-area: transform;
+}
+
+.transform-image {
+  grid-area: transform-image;
+}
+
+.standout {
+  grid-area: standout;
+}
+
+.standout-image {
+  grid-area: standout-image;
 }
 
 .grid-text {
@@ -357,5 +379,13 @@ img {
   .header-text h1 {
     text-align: center;
     margin-bottom: 1.5rem;
+  }
+  .grid {
+    grid-template-areas:
+      "transform-image"
+      "transform"
+      "standout-image"
+      "standout";
+    grid-template-rows: repeat(6, 1fr);
   }
 }
