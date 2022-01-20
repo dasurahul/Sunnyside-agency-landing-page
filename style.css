@@ -365,7 +365,7 @@ img {
 
 /* Mobile */
 
-@media (max-width: 30rem) {
+@media (max-width: 46.875rem) {
   .header {
     min-height: 60vh;
     background-image: url("./images/mobile/image-header.jpg");
