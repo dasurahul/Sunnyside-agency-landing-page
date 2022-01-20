@@ -164,7 +164,7 @@ img {
   background-image: url("./images/desktop/image-stand-out.jpg");
 }
 
-.image {
+.background-image {
   height: 37.5rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,8 +190,8 @@ img {
 
 .grid a {
   text-decoration: none;
-  font-family: "Fraunces", sans-serif;
   color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", sans-serif;
   position: relative;
 }
 
@@ -393,5 +393,9 @@ img {
     width: 90%;
     margin-block: 3.5rem;
     text-align: center;
+  }
+  .background-image {
+    height: 100%;
+    background-position: center;
   }
 }
