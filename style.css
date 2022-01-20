@@ -180,6 +180,7 @@ img {
 
 .grid-text p {
   color: var(--dark-grayish-blue);
+  line-height: 1.5;
   margin-bottom: 2rem;
 }
 
@@ -387,5 +388,10 @@ img {
       "standout-image"
       "standout";
     grid-template-rows: repeat(6, 1fr);
+  }
+  .grid-text {
+    width: 90%;
+    margin-block: 3.5rem;
+    text-align: center;
   }
 }
