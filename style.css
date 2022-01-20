@@ -146,16 +146,13 @@ img {
   align-items: center;
 }
 
-.grid img {
-  height: 100%;
-}
-
 .transform {
   grid-area: transform;
 }
 
 .transform-image {
   grid-area: transform-image;
+  background-image: url("./images/desktop/image-transform.jpg");
 }
 
 .standout {
@@ -164,6 +161,13 @@ img {
 
 .standout-image {
   grid-area: standout-image;
+  background-image: url("./images/desktop/image-stand-out.jpg");
+}
+
+.image {
+  height: 37.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-text {
@@ -182,10 +186,6 @@ img {
   color: var(--dark-grayish-blue);
   line-height: 1.5;
   margin-bottom: 2rem;
-}
-
-.grid img {
-  width: 100%;
 }
 
 .grid a {
