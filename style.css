@@ -276,8 +276,8 @@ img {
 }
 
 .title {
-  color: var(--grayish-blue);
   text-align: center;
+  color: var(--grayish-blue);
   font-family: "Fraunces", sans-serif;
   letter-spacing: 0.3rem;
   margin-bottom: 5rem;
