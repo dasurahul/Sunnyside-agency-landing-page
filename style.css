@@ -399,6 +399,7 @@ img {
     background-position: center;
   }
   .testimonials {
+    width: 90%;
     padding-block: 3rem;
   }
   .title {
