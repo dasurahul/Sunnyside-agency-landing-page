@@ -398,4 +398,20 @@ img {
     height: 100%;
     background-position: center;
   }
+  .testimonials {
+    padding-block: 3rem;
+  }
+  .title {
+    margin-bottom: 2rem;
+  }
+  .three-columns {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .client-image {
+    margin-bottom: 1.5rem;
+  }
+  .three-columns > div p {
+    margin-bottom: 1.5rem;
+  }
 }
