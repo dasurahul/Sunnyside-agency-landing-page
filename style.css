@@ -78,6 +78,7 @@ img {
   width: 90%;
   margin-inline: auto;
   padding-block: 2.25rem;
+  position: relative;
 }
 
 .logo img {
@@ -121,6 +122,50 @@ img {
   background-color: transparent;
   padding: 0;
   border: none;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  padding: 2.5rem;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  text-align: center;
+}
+
+.menu ul li:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+}
+
+.menu ul li button {
+  background-color: var(--yellow);
+  color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.open {
+  display: block;
 }
 
 .header-text {
