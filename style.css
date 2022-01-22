@@ -75,7 +75,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.25rem;
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 2.25rem;
 }
 
 .logo img {
