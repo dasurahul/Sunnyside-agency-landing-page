@@ -202,6 +202,7 @@ img {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "transform transform-image"
     "standout-image standout";
@@ -475,6 +476,7 @@ img {
     margin-bottom: 1.5rem;
   }
   .grid {
+    grid-template-columns: 1fr;
     grid-template-areas:
       "transform-image"
       "transform"
@@ -494,9 +496,10 @@ img {
   .graphic-design-text,
   .photography-text {
     top: 55%;
-    left: 0;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
     transform: translateX(0);
-    padding: 1rem;
   }
   .testimonials {
     width: 90%;
