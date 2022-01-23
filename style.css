@@ -125,13 +125,15 @@ img {
 }
 
 .menu {
-  display: none;
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
   background-color: var(--white);
   padding: 2.5rem;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: 0.25s;
 }
 
 .menu ul {
@@ -177,7 +179,7 @@ img {
 }
 
 .open {
-  display: block;
+  transform: scale(1);
 }
 
 .header-text {
