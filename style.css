@@ -491,6 +491,13 @@ img {
     height: 100%;
     background-position: center;
   }
+  .graphic-design-text,
+  .photography-text {
+    top: 55%;
+    left: 0;
+    transform: translateX(0);
+    padding: 1rem;
+  }
   .testimonials {
     width: 90%;
     padding-block: 3rem;
