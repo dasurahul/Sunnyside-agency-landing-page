@@ -131,8 +131,9 @@ img {
   right: 0;
   background-color: var(--white);
   padding: 2.5rem;
-  transform: scale(0);
-  transform-origin: top right;
+  transform: scaleY(0);
+  transform-origin: top;
+  opacity: 0;
   transition: 0.25s;
 }
 
@@ -179,7 +180,8 @@ img {
 }
 
 .open {
-  transform: scale(1);
+  transform: scaleY(1);
+  opacity: 1;
 }
 
 .header-text {
