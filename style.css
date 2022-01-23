@@ -164,6 +164,18 @@ img {
   border-radius: 2rem;
 }
 
+.menu::before {
+  content: "";
+  position: absolute;
+  top: calc(0px - 20px);
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+}
+
 .open {
   display: block;
 }
