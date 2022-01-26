@@ -310,6 +310,7 @@ img {
   position: absolute;
   top: 70%;
   left: 50%;
+  bottom: 1rem;
   transform: translateX(-50%);
   text-align: center;
 }
